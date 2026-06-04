@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { personalData } from '../../../../utils/data/personal-data';
 
 @Component({
   selector: 'app-navbar',
@@ -10,6 +11,7 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
+  personalData = personalData;
   navItems = [
     { path: '/#about', label: 'ABOUT' },
     { path: '/#experience', label: 'EXPERIENCE' },

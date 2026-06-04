@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { contactsData } from '../../../../utils/data/contactsData';
 
 @Component({
   selector: 'app-whatsapp-button',
@@ -12,7 +13,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 })
 export class WhatsappButtonComponent {
   whatsappIcon = faWhatsapp;
-  phoneNumber = '+923217281104';
+  phoneNumber = contactsData.phone;
 
   openWhatsApp() {
     const message = 'Hello! I visited your portfolio and would like to connect.';

@@ -1,6 +1,6 @@
 {
   "buildCommand": "ng build --configuration production",
-  "outputDirectory": "dist/vv-portfolio",
+  "outputDirectory": "dist/vv-portfolio/browser",
   "framework": "angular",
   "routes": [
     { "handle": "filesystem" },

@@ -25,7 +25,7 @@ export const projects = [
     code: "",
     demo: "",
     image: "assets/images/projects/vendor-portal.png",
-    role: "Frontend Architect"
+    role: "Software Developer"
   },
   {
     id: 2,

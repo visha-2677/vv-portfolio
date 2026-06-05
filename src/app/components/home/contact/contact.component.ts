@@ -9,7 +9,7 @@ import { ContactFormComponent } from '../contact-form/contact-form.component';
 @Component({
   selector: 'app-contact',
   standalone: true,
-  imports: [CommonModule, FontAwesomeModule, ContactFormComponent,],
+  imports: [CommonModule, FontAwesomeModule],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })

@@ -203,6 +203,8 @@ export const skillsImage = (skill: string): string => {
       return `/assets/svg/skills/${skillID}.svg`;
     case 'wolframalpha':
       return `/assets/svg/skills/${skillID}.svg`;
+    case 'rxjs':
+      return `/assets/svg/skills/${skillID}.svg`;
     default:
       return '';
   }

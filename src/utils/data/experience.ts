@@ -6,7 +6,7 @@ export const experiences: Experience[] = [
     id: 1,
     title: 'Software Engineer (Full Stack Developer)',
     company: "RAAPYD",
-    duration: "Dec 2024 – May 2026 (1 year 6 months)"
+    duration: "Dec 2024 – Present (1 year 6 months)"
   },
   {
     id: 2,
